@@ -20,9 +20,9 @@ const {
 
 describe('obtenerMayor(x, y)', function() {
   it('should return x if it is larger than y', function() {
-    expect(obtenerMayor(10, 5)).toBe(10);
-  });
-  it('should return y if it is larger than x', function() {
+        expect(obtenerMayor(10, 5)).toBe(10);
+     });
+  it('should return y if it is larger than x', function() {     
     expect(obtenerMayor(50, 100)).toBe(100);
   });
   it('should return either one if they are the same', function() {
